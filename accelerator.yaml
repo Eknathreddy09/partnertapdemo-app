@@ -11,12 +11,12 @@ accelerator:
   - name: repositoryPrefix
     inputType: text
     label: Prefix for the container image repository
-    defaultValue: tanzudemoreg.azurecr.io/build-service
+    defaultValue: tappartnerdemoacr/tapworkshop/build-service
     required: true
   - name: appnamespace
     inputType: text
     label: Enter the namespace where application will be deployed
-    defaultValue: default
+    defaultValue: tap-workload
     required: true
   - name: selectMe
     display: true
