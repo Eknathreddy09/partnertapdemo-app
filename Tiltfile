@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='tappartnerdemoacr.azurecr.io/tap173/build-service/partnertapdemo-tap-install')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='tappartnerdemoacr.azurecr.io/tap173/build-service/partnertapdemo')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='tap-workload')
 APPNAME = os.getenv("APP_NAME", default='partnertapdemo')
